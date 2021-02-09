@@ -2,7 +2,7 @@ const {hostname} = require('os')
 const http = require('http')
 
 
-const message  = 'Hello World\n';
+const message  = 'Hello Aws-- so exciting running my first app on aws ec2\n';
 const port = 8080;
 
 const server = http.createServer((req, res) => {
